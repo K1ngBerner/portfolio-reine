@@ -286,9 +286,109 @@
           Desenvolvedor Frontend iniciante com foco em UX e experiências digitais. Experiência com projetos web,
           jogos e produção de conteúdo digital.
         </h2>
-        <a class="button button--dark" href="mailto:reinholdgberner@gmail.com?subject=Contato%20pelo%20portf%C3%B3lio">
-          Entrar em contato
-        </a>
+        <button
+          class="button button--dark contact-toggle"
+          type="button"
+          aria-expanded="false"
+          aria-controls="contact-panel"
+          data-contact-toggle
+        >
+          <span data-contact-toggle-label>Entrar em contato</span>
+          <span class="contact-toggle__icon" aria-hidden="true">↓</span>
+        </button>
+      </div>
+    </section>
+
+    <section
+      class="contact-panel"
+      id="contact-panel"
+      aria-labelledby="contact-panel-title"
+      aria-hidden="true"
+      data-contact-panel
+      inert
+    >
+      <div class="container contact-panel__inner">
+        <div class="contact-panel__surface">
+          <div class="contact-panel__header">
+            <div class="contact-panel__copy">
+              <p class="eyebrow">Canais diretos</p>
+              <h2 id="contact-panel-title">Vamos conversar sobre projetos, vagas e oportunidades</h2>
+              <p class="contact-panel__lead">
+                Escolha o melhor canal para falar comigo. Mantive esta área simples, direta e pensada para
+                facilitar o primeiro contato.
+              </p>
+            </div>
+            <button
+              class="contact-panel__close"
+              type="button"
+              aria-label="Fechar seção de contato"
+              data-contact-close
+            >
+              Fechar
+            </button>
+          </div>
+
+          <div class="contact-panel__body">
+            <aside class="contact-note" aria-label="Nota autoral sobre este portfólio">
+              <span>Sobre este site</span>
+              <p>
+                Este portfólio foi integralmente idealizado, desenhado e desenvolvido por mim, funcionando não
+                apenas como apresentação profissional, mas como evidência prática da minha capacidade de estruturar
+                interfaces, pensar experiência digital e transformar direção visual em produto navegável.
+              </p>
+            </aside>
+
+            <div class="contact-cards" aria-label="Opções de contato">
+              <article class="contact-card contact-card--email">
+                <div class="contact-card__icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" role="img">
+                    <path d="M4 6.75h16v10.5H4V6.75Z"></path>
+                    <path d="m5.15 8.15 6.85 5.1 6.85-5.1"></path>
+                  </svg>
+                </div>
+                <div class="contact-card__body">
+                  <h3>Me envie um e-mail</h3>
+                  <p>Retorno em até 2 dias úteis</p>
+                </div>
+                <div class="contact-card__actions">
+                  <a
+                    href="mailto:reinholdgberner@gmail.com?subject=Contato%20via%20portfólio"
+                    class="btn-primary"
+                  >
+                    Enviar e-mail
+                  </a>
+                  <p class="contact-card__fallback">
+                    Ou envie um e-mail para:
+                    <a href="mailto:reinholdgberner@gmail.com">reinholdgberner@gmail.com</a>
+                  </p>
+                </div>
+              </article>
+
+              <article class="contact-card contact-card--linkedin">
+                <div class="contact-card__icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" role="img">
+                    <path d="M6.94 8.9H3.82v10h3.12v-10Z"></path>
+                    <path d="M5.38 7.5a1.78 1.78 0 1 0 0-3.56 1.78 1.78 0 0 0 0 3.56Z"></path>
+                    <path d="M9.28 8.9h2.98v1.36h.04c.42-.78 1.44-1.6 2.96-1.6 3.16 0 3.74 2.08 3.74 4.78v5.46h-3.1v-4.84c0-1.16-.02-2.64-1.6-2.64-1.62 0-1.86 1.26-1.86 2.56v4.92H9.28v-10Z"></path>
+                  </svg>
+                </div>
+                <div class="contact-card__body">
+                  <h3>LinkedIn</h3>
+                  <p>Vamos nos conectar por lá</p>
+                </div>
+                <a
+                  class="button button--outline contact-card__button external-link"
+                  href="https://www.linkedin.com/in/reineberner/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="Abrir perfil de Reinhold Berner no LinkedIn em nova aba"
+                >
+                  Abrir perfil
+                </a>
+              </article>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
   </main>
