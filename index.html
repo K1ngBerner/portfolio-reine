@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfólio de Reinhold Berner, desenvolvedor frontend com foco em UX, experiências digitais, projetos web e jogos.">
+  <title>Reinhold Berner | Desenvolvedor Frontend</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+
+  <header class="site-header" data-header>
+    <nav class="nav" aria-label="Navegação principal">
+      <a class="brand" href="#home" aria-label="Início do portfólio de Reinhold Berner">
+        <span class="brand__mark" aria-hidden="true">
+          <img src="profile.png" alt="" width="80" height="80">
+        </span>
+        <span class="brand__name">Reinhold Berner</span>
+      </a>
+
+      <div class="nav__links" aria-label="Seções do site">
+        <a href="#projetos">Projetos</a>
+        <a href="#sobre">Sobre</a>
+        <a href="#curriculo">Currículo</a>
+        <a href="#contato">Contato</a>
+      </div>
+    </nav>
+  </header>
+
+  <main id="conteudo">
+    <section class="hero" id="home" aria-labelledby="hero-title">
+      <div class="hero__overlay" aria-hidden="true"></div>
+
+      <div class="container hero__inner">
+        <div class="hero__content">
+          <p class="eyebrow">CREATIVE DEVELOPER • FRONTEND • UX</p>
+          <h1 id="hero-title">Desenvolvedor Frontend e Dev Criativo com foco em UX e experiências digitais</h1>
+          <p class="hero__text">
+            Atuo na criação de interfaces digitais que conectam design, código e usabilidade. Tenho experiência
+            com projetos web, jogos e produção digital, buscando desenvolver soluções funcionais, bem estruturadas
+            e com propósito.
+          </p>
+
+          <div class="hero__actions" aria-label="Ações principais">
+            <a class="button button--primary" href="#projetos">Ver projetos</a>
+            <a class="button button--secondary" href="#curriculo">Ver currículo</a>
+            <a class="button button--tertiary" href="#contato">Contato</a>
+          </div>
+
+          <ul class="hero__facts" aria-label="Áreas de atuação">
+            <li>
+              <span>Frontend</span>
+              <strong>Interfaces responsivas</strong>
+            </li>
+            <li>
+              <span>UX</span>
+              <strong>Clareza e usabilidade</strong>
+            </li>
+            <li>
+              <span>Games + conteúdo</span>
+              <strong>Sistemas e multimídia</strong>
+            </li>
+          </ul>
+        </div>
+
+        <div class="hero__visual">
+          <span class="hero__visual-label">Disponível para oportunidades frontend</span>
+          <figure class="hero__portrait" aria-label="Foto profissional de Reinhold Berner">
+            <img
+              src="profile.png"
+              alt="Foto de perfil de Reinhold Berner"
+              width="560"
+              height="560"
+            >
+            <figcaption>Reinhold Berner</figcaption>
+          </figure>
+          <div class="hero__signal">
+            <span>Foco atual</span>
+            <strong>Frontend • UX • Experiências digitais</strong>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section projects" id="projetos" aria-labelledby="projects-title">
+      <div class="container">
+        <div class="section__header reveal">
+          <p class="eyebrow">Projetos principais</p>
+          <h2 id="projects-title">Web, interação e jogos com pensamento de produto</h2>
+          <p>
+            Uma seleção de trabalhos voltados para interfaces, lógica de frontend, organização visual e
+            experiências digitais em diferentes formatos.
+          </p>
+        </div>
+
+        <div class="projects__grid">
+          <article class="project-card reveal" id="anpuh-escola">
+            <div class="project-card__media">
+              <img
+                src="https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?auto=format&fit=crop&w=900&q=80"
+                alt="Mesa com livros, caderno e materiais de estudo"
+                loading="lazy"
+                width="900"
+                height="600"
+              >
+              <span class="project-card__badge">Institucional</span>
+            </div>
+
+            <div class="project-card__content">
+              <span class="project-card__index">01</span>
+              <h3>ANPUH Escola</h3>
+              <p>Plataforma educacional desenvolvida com foco em cursos, comunidade e conteúdo acadêmico.</p>
+
+              <ul class="project-card__list">
+                <li>HTML, CSS, JavaScript</li>
+                <li>Estrutura de landing page</li>
+                <li>UX/UI aplicado</li>
+                <li>Design institucional</li>
+              </ul>
+
+              <a
+                class="project-card__link external-link"
+                href="https://k1ngberner.github.io/Anpuh-Escola/"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Ver projeto ANPUH Escola em nova aba"
+              >
+                Ver projeto
+              </a>
+            </div>
+          </article>
+
+          <article class="project-card reveal">
+            <div class="project-card__media">
+              <img
+                src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&w=900&q=80"
+                alt="Tela com código JavaScript em um editor"
+                loading="lazy"
+                width="900"
+                height="600"
+              >
+              <span class="project-card__badge">Frontend</span>
+            </div>
+
+            <div class="project-card__content">
+              <span class="project-card__index">02</span>
+              <h3>Projeto Web JavaScript</h3>
+              <p>Aplicação web com foco em lógica e interação no frontend.</p>
+
+              <ul class="project-card__list">
+                <li>JavaScript</li>
+                <li>Manipulação do DOM</li>
+                <li>Interface funcional</li>
+              </ul>
+
+              <span class="project-card__status">Laboratório de interação</span>
+            </div>
+          </article>
+
+          <article class="project-card reveal">
+            <div class="project-card__media">
+              <img
+                src="https://images.unsplash.com/photo-1550745165-9bc0b252726f?auto=format&fit=crop&w=900&q=80"
+                alt="Controle de videogame em ambiente com luzes coloridas"
+                loading="lazy"
+                width="900"
+                height="600"
+              >
+              <span class="project-card__badge">Games</span>
+            </div>
+
+            <div class="project-card__content">
+              <span class="project-card__index">03</span>
+              <h3>Jogos (Unreal + Unity)</h3>
+              <p>Projetos de jogos desenvolvidos em ambiente acadêmico, com foco em sistemas, interação e gameplay.</p>
+
+              <ul class="project-card__list">
+                <li>Blueprint e Unity</li>
+                <li>Lógica de gameplay</li>
+                <li>Desenvolvimento de sistemas</li>
+                <li>Trabalho em equipe</li>
+              </ul>
+
+              <a
+                class="project-card__link external-link"
+                href="https://reine-berner.itch.io"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Ver jogos de Reinhold Berner no itch.io em nova aba"
+              >
+                Ver jogos
+              </a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section about" id="sobre" aria-labelledby="about-title">
+      <div class="container about__grid">
+        <div class="section__header reveal">
+          <p class="eyebrow">Sobre mim</p>
+          <h2 id="about-title">Código, design, jogos e produção digital em um mesmo repertório</h2>
+        </div>
+
+        <div class="about__content reveal">
+          <p>
+            Tenho interesse em desenvolvimento frontend, experiências digitais e produtos interativos. Busco
+            oportunidades onde eu possa evoluir tecnicamente enquanto contribuo com organização, usabilidade e
+            criação de interfaces.
+          </p>
+          <p>
+            Meu trabalho também passa por produção de vídeos, criação de conteúdo, projetos multimídia e um
+            portfólio autoral além do frontend. Essa combinação fortalece minha visão de produto: penso em
+            interfaces, narrativa, interação e clareza visual como partes da mesma experiência.
+          </p>
+
+          <div class="about__stack" aria-label="Competências em destaque">
+            <span>HTML</span>
+            <span>CSS</span>
+            <span>JavaScript</span>
+            <span>UX/UI</span>
+            <span>Unreal Blueprint</span>
+            <span>Unity</span>
+            <span>Produção digital</span>
+            <span>Conteúdo multimídia</span>
+          </div>
+
+          <div class="about__portfolio">
+            <div>
+              <span>Portfólio autoral</span>
+              <p>Projetos criativos, produções audiovisuais e trabalhos multimídia que ampliam minha atuação.</p>
+            </div>
+            <a
+              class="button button--outline external-link"
+              href="https://reinholdgberner.wixsite.com/reinholdbernerport-1"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Explorar portfólio completo
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section resume" id="curriculo" aria-labelledby="resume-title">
+      <div class="container resume__inner reveal">
+        <div class="resume__copy">
+          <p class="eyebrow">Currículo</p>
+          <h2 id="resume-title">Currículo profissional para oportunidades em frontend</h2>
+          <p>
+            Perfil iniciante em desenvolvimento frontend com base em UX, criação de interfaces, projetos web,
+            jogos acadêmicos e produção de conteúdo digital. Disponível para oportunidades onde código,
+            organização visual e aprendizado contínuo caminhem juntos.
+          </p>
+        </div>
+
+        <div class="resume__card" aria-label="Arquivo de currículo em PDF">
+          <span class="resume__tag">PDF profissional</span>
+          <h3>CV_Reinhold_Berner.pdf</h3>
+          <p>Currículo atualizado com formação, competências, projetos e informações de contato.</p>
+
+          <div class="resume__actions">
+            <a
+              class="button button--primary"
+              href="CV_Reinhold_Berner.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Visualizar currículo
+            </a>
+            <a class="button button--outline" href="CV_Reinhold_Berner.pdf" download>
+              Baixar PDF
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="cta" id="contato" aria-labelledby="cta-title">
+      <div class="container cta__inner reveal">
+        <p class="eyebrow">Contato</p>
+        <h2 id="cta-title">
+          Desenvolvedor Frontend iniciante com foco em UX e experiências digitais. Experiência com projetos web,
+          jogos e produção de conteúdo digital.
+        </h2>
+        <a class="button button--dark" href="mailto:reinholdgberner@gmail.com?subject=Contato%20pelo%20portf%C3%B3lio">
+          Entrar em contato
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <p>Reinhold Berner • Portfólio Frontend</p>
+      <a href="#home">Voltar ao topo</a>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
