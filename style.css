@@ -933,6 +933,66 @@ button {
   font-size: 0.98rem;
 }
 
+.explorations {
+  border-bottom: 1px solid var(--color-line);
+  background: rgba(255, 255, 255, 0.44);
+  padding-block: 3.25rem;
+}
+
+.explorations__inner {
+  display: grid;
+  grid-template-columns: minmax(220px, 0.42fr) minmax(0, 1fr);
+  gap: 2rem;
+  align-items: start;
+}
+
+.explorations .eyebrow {
+  color: #9c650f;
+  margin-bottom: 0.65rem;
+}
+
+.explorations h2 {
+  margin: 0;
+  font-size: 1.65rem;
+  line-height: 1.1;
+  letter-spacing: 0;
+}
+
+.explorations__content {
+  max-width: 760px;
+  border-left: 3px solid rgba(40, 111, 240, 0.22);
+  padding-left: 1.25rem;
+}
+
+.explorations__content p {
+  margin: 0;
+  color: var(--color-muted);
+  font-size: 1rem;
+}
+
+.explorations__content p + p {
+  margin-top: 0.8rem;
+}
+
+.explorations__content a {
+  display: inline-flex;
+  width: fit-content;
+  margin-top: 1rem;
+  color: var(--color-blue);
+  font-size: 0.94rem;
+  font-weight: 900;
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 4px;
+  transition: color 180ms ease, transform 180ms ease;
+}
+
+.explorations__content a:hover,
+.explorations__content a:focus-visible {
+  color: var(--color-ink);
+  transform: translateY(-1px);
+}
+
 .resume {
   background:
     linear-gradient(90deg, rgba(40, 111, 240, 0.06), transparent 40%),
@@ -1614,6 +1674,22 @@ button {
 
   .about__content p {
     font-size: 1.08rem;
+  }
+
+  .explorations {
+    padding-block: 2.75rem;
+  }
+
+  .explorations__inner {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+
+  .explorations__content {
+    border-left: 0;
+    border-top: 3px solid rgba(40, 111, 240, 0.22);
+    padding-left: 0;
+    padding-top: 1rem;
   }
 
   .service-card,
