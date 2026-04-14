@@ -5,6 +5,7 @@ const contactToggle = document.querySelector("[data-contact-toggle]");
 const contactToggleLabel = document.querySelector("[data-contact-toggle-label]");
 const contactPanel = document.querySelector("[data-contact-panel]");
 const contactClose = document.querySelector("[data-contact-close]");
+const contactLaunchers = document.querySelectorAll("[data-open-contact]");
 const motionQuery = window.matchMedia("(prefers-reduced-motion: reduce)");
 
 function updateHeaderState() {
@@ -139,6 +140,17 @@ if (contactToggle) {
 if (contactClose) {
   contactClose.addEventListener("click", () => closeContactPanel({ restoreFocus: true }));
 }
+
+contactLaunchers.forEach((launcher) => {
+  launcher.addEventListener("click", (event) => {
+    if (!contactPanel || !contactToggle) {
+      return;
+    }
+
+    event.preventDefault();
+    openContactPanel();
+  });
+});
 
 document.addEventListener("keydown", (event) => {
   if (event.key === "Escape" && contactPanel?.classList.contains("is-open")) {
