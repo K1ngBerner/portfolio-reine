@@ -534,7 +534,7 @@ button {
 
 .projects__grid {
   display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
+  grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 1.1rem;
 }
 
@@ -1439,7 +1439,6 @@ button {
     width: calc(100% - 1rem);
   }
 
-  .projects__grid,
   .services__grid,
   .services__support,
   .about__grid,
@@ -1598,6 +1597,10 @@ button {
 
   .section {
     padding-block: 4rem;
+  }
+
+  .projects__grid {
+    grid-template-columns: 1fr;
   }
 
   .section__header {
