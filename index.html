@@ -3,28 +3,67 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Portfólio de Reinhold Berner, desenvolvedor frontend com foco em UX, experiências digitais, projetos web e jogos.">
+  <meta
+    name="description"
+    content="Portfólio de Reinhold Berner, desenvolvedor frontend com foco em UX, experiências digitais, projetos web e jogos."
+  >
   <title>Reinhold Berner | Desenvolvedor Frontend</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+  <a class="skip-link" href="#conteudo" data-i18n="skip.link">Pular para o conteúdo</a>
 
   <header class="site-header" data-header>
-    <nav class="nav" aria-label="Navegação principal">
-      <a class="brand" href="#home" aria-label="Início do portfólio de Reinhold Berner">
+    <nav class="nav" aria-label="Navegação principal" data-i18n-attrs="aria-label:aria.nav">
+      <a
+        class="brand"
+        href="#home"
+        aria-label="Início do portfólio de Reinhold Berner"
+        data-i18n-attrs="aria-label:aria.brand"
+      >
         <span class="brand__mark" aria-hidden="true">
           <img src="profile.png" alt="" width="80" height="80">
         </span>
         <span class="brand__name">Reinhold Berner</span>
       </a>
 
-      <div class="nav__links" aria-label="Seções do site">
-        <a href="#projetos">Projetos</a>
-        <a href="#servicos">Serviços</a>
-        <a href="#sobre">Sobre</a>
-        <a href="#curriculo">Currículo</a>
-        <a href="#contato">Contato</a>
+      <div class="nav__actions">
+        <div class="nav__links" aria-label="Seções do site" data-i18n-attrs="aria-label:aria.navSections">
+          <a href="#projetos" data-i18n="nav.projects">Projetos</a>
+          <a href="#servicos" data-i18n="nav.services">Serviços</a>
+          <a href="#sobre" data-i18n="nav.about">Sobre</a>
+          <a href="#curriculo" data-i18n="nav.resume">Currículo</a>
+          <a href="#contato" data-i18n="nav.contact">Contato</a>
+        </div>
+
+        <div
+          class="lang-switcher"
+          role="group"
+          aria-label="Selecionar idioma"
+          data-i18n-attrs="aria-label:aria.languageSwitcher"
+        >
+          <button
+            class="lang-switcher__button is-active"
+            type="button"
+            data-lang-trigger="pt"
+            aria-pressed="true"
+            aria-label="Selecionar português"
+            data-i18n-attrs="aria-label:aria.switchToPt"
+          >
+            PT
+          </button>
+          <span class="lang-switcher__divider" aria-hidden="true">|</span>
+          <button
+            class="lang-switcher__button"
+            type="button"
+            data-lang-trigger="en"
+            aria-pressed="false"
+            aria-label="Selecionar inglês"
+            data-i18n-attrs="aria-label:aria.switchToEn"
+          >
+            EN
+          </button>
+        </div>
       </div>
     </nav>
   </header>
@@ -35,49 +74,58 @@
 
       <div class="container hero__inner">
         <div class="hero__content">
-          <p class="eyebrow">CREATIVE DEVELOPER • FRONTEND • UX</p>
-          <h1 id="hero-title">Desenvolvedor Frontend e Dev Criativo com foco em UX e experiências digitais</h1>
-          <p class="hero__text">
+          <p class="eyebrow" data-i18n="hero.eyebrow">CREATIVE DEVELOPER • FRONTEND • UX</p>
+          <h1 id="hero-title" data-i18n="hero.title">
+            Desenvolvedor Frontend e Dev Criativo com foco em UX e experiências digitais
+          </h1>
+          <p class="hero__text" data-i18n="hero.text">
             Crio interfaces digitais que conectam design, código e experiência. Atuo com frontend, UX e projetos
             multimídia.
           </p>
 
-          <div class="hero__actions" aria-label="Ações principais">
-            <a class="button button--primary" href="#projetos">Ver projetos</a>
-            <a class="button button--secondary" href="#curriculo">Ver currículo</a>
-            <a class="button button--tertiary" href="#contato">Contato</a>
+          <div class="hero__actions" aria-label="Ações principais" data-i18n-attrs="aria-label:aria.heroActions">
+            <a class="button button--primary" href="#projetos" data-i18n="hero.actionProjects">Ver projetos</a>
+            <a class="button button--secondary" href="#curriculo" data-i18n="hero.actionResume">Ver currículo</a>
+            <a class="button button--tertiary" href="#contato" data-i18n="hero.actionContact">Contato</a>
           </div>
 
-          <ul class="hero__facts" aria-label="Áreas de atuação">
+          <ul class="hero__facts" aria-label="Áreas de atuação" data-i18n-attrs="aria-label:aria.heroFacts">
             <li>
-              <span>Frontend</span>
-              <strong>Interfaces responsivas</strong>
+              <span data-i18n="hero.factFrontendTitle">Frontend</span>
+              <strong data-i18n="hero.factFrontendText">Interfaces responsivas</strong>
             </li>
             <li>
-              <span>UX</span>
-              <strong>Clareza e usabilidade</strong>
+              <span data-i18n="hero.factUxTitle">UX</span>
+              <strong data-i18n="hero.factUxText">Clareza e usabilidade</strong>
             </li>
             <li>
-              <span>Games + conteúdo</span>
-              <strong>Sistemas e multimídia</strong>
+              <span data-i18n="hero.factGamesTitle">Games + conteúdo</span>
+              <strong data-i18n="hero.factGamesText">Sistemas e multimídia</strong>
             </li>
           </ul>
         </div>
 
         <div class="hero__visual">
-          <span class="hero__visual-label">Disponível para oportunidades frontend</span>
-          <figure class="hero__portrait" aria-label="Foto profissional de Reinhold Berner">
+          <span class="hero__visual-label" data-i18n="hero.availability">
+            Disponível para oportunidades frontend
+          </span>
+          <figure
+            class="hero__portrait"
+            aria-label="Foto profissional de Reinhold Berner"
+            data-i18n-attrs="aria-label:aria.heroPhotoFigure"
+          >
             <img
               src="profile.png"
               alt="Foto de perfil de Reinhold Berner"
               width="560"
               height="560"
+              data-i18n-attrs="alt:aria.heroPhotoAlt"
             >
             <figcaption>Reinhold Berner</figcaption>
           </figure>
           <div class="hero__signal">
-            <span>Foco atual</span>
-            <strong>Frontend • UX • Experiências digitais</strong>
+            <span data-i18n="hero.currentFocusLabel">Foco atual</span>
+            <strong data-i18n="hero.currentFocusText">Frontend • UX • Experiências digitais</strong>
           </div>
         </div>
       </div>
@@ -86,11 +134,11 @@
     <section class="section projects" id="projetos" aria-labelledby="projects-title">
       <div class="container">
         <div class="section__header reveal">
-          <p class="eyebrow">Projetos principais</p>
-          <h2 id="projects-title">Web, interação e jogos com pensamento de produto</h2>
-          <p>
-            Uma seleção de trabalhos voltados para interfaces, lógica de frontend, organização visual e
-            experiências digitais e apresentações multimídia em diferentes formatos.
+          <p class="eyebrow" data-i18n="projects.eyebrow">Projetos principais</p>
+          <h2 id="projects-title" data-i18n="projects.title">Web, interação e jogos com pensamento de produto</h2>
+          <p data-i18n="projects.description">
+            Uma seleção de trabalhos voltados para interfaces, lógica de frontend, organização visual e experiências
+            digitais e apresentações multimídia em diferentes formatos.
           </p>
         </div>
 
@@ -104,19 +152,21 @@
                 width="900"
                 height="600"
               >
-              <span class="project-card__badge">Institucional</span>
+              <span class="project-card__badge" data-i18n="projects.anpuh.badge">Institucional</span>
             </div>
 
             <div class="project-card__content">
               <span class="project-card__index">01</span>
               <h3>ANPUH Escola</h3>
-              <p>Plataforma educacional com foco em experiência de navegação, organização de conteúdo e clareza visual.</p>
+              <p data-i18n="projects.anpuh.description">
+                Plataforma educacional com foco em experiência de navegação, organização de conteúdo e clareza visual.
+              </p>
 
               <ul class="project-card__list">
-                <li>HTML, CSS, JavaScript</li>
-                <li>Estrutura de landing page</li>
-                <li>UX/UI aplicado</li>
-                <li>Design institucional</li>
+                <li data-i18n="projects.anpuh.item1">HTML, CSS, JavaScript</li>
+                <li data-i18n="projects.anpuh.item2">Estrutura de landing page</li>
+                <li data-i18n="projects.anpuh.item3">UX/UI aplicado</li>
+                <li data-i18n="projects.anpuh.item4">Design institucional</li>
               </ul>
 
               <a
@@ -125,6 +175,8 @@
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="Ver projeto ANPUH Escola em nova aba"
+                data-i18n="projects.anpuh.link"
+                data-i18n-attrs="aria-label:aria.projectsAnpuhLink"
               >
                 Ver projeto
               </a>
@@ -140,21 +192,23 @@
                 width="900"
                 height="600"
               >
-              <span class="project-card__badge">Frontend</span>
+              <span class="project-card__badge" data-i18n="projects.js.badge">Frontend</span>
             </div>
 
             <div class="project-card__content">
               <span class="project-card__index">02</span>
-              <h3>Projeto Web JavaScript</h3>
-              <p>Aplicação web focada em interação, lógica de interface e respostas claras para o usuário.</p>
+              <h3 data-i18n="projects.js.title">Projeto Web JavaScript</h3>
+              <p data-i18n="projects.js.description">
+                Aplicação web focada em interação, lógica de interface e respostas claras para o usuário.
+              </p>
 
               <ul class="project-card__list">
-                <li>JavaScript</li>
-                <li>Manipulação do DOM</li>
-                <li>Interface funcional</li>
+                <li data-i18n="projects.js.item1">JavaScript</li>
+                <li data-i18n="projects.js.item2">Manipulação do DOM</li>
+                <li data-i18n="projects.js.item3">Interface funcional</li>
               </ul>
 
-              <span class="project-card__status">Laboratório de interação</span>
+              <span class="project-card__status" data-i18n="projects.js.status">Laboratório de interação</span>
             </div>
           </article>
 
@@ -167,19 +221,21 @@
                 width="900"
                 height="600"
               >
-              <span class="project-card__badge">Games</span>
+              <span class="project-card__badge" data-i18n="projects.games.badge">Games</span>
             </div>
 
             <div class="project-card__content">
               <span class="project-card__index">03</span>
-              <h3>Jogos (Unreal + Unity)</h3>
-              <p>Projetos de jogos com foco em sistemas, lógica de gameplay e experiências interativas jogáveis.</p>
+              <h3 data-i18n="projects.games.title">Jogos (Unreal + Unity)</h3>
+              <p data-i18n="projects.games.description">
+                Projetos de jogos com foco em sistemas, lógica de gameplay e experiências interativas jogáveis.
+              </p>
 
               <ul class="project-card__list">
-                <li>Blueprint e Unity</li>
-                <li>Lógica de gameplay</li>
-                <li>Desenvolvimento de sistemas</li>
-                <li>Trabalho em equipe</li>
+                <li data-i18n="projects.games.item1">Blueprint e Unity</li>
+                <li data-i18n="projects.games.item2">Lógica de gameplay</li>
+                <li data-i18n="projects.games.item3">Desenvolvimento de sistemas</li>
+                <li data-i18n="projects.games.item4">Trabalho em equipe</li>
               </ul>
 
               <a
@@ -188,6 +244,8 @@
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="Ver jogos de Reinhold Berner no itch.io em nova aba"
+                data-i18n="projects.games.link"
+                data-i18n-attrs="aria-label:aria.projectsGamesLink"
               >
                 Ver jogos
               </a>
@@ -203,28 +261,30 @@
                 width="900"
                 height="600"
               >
-              <span class="project-card__badge">Audiovisual / Produto digital</span>
+              <span class="project-card__badge" data-i18n="projects.multimedia.badge">
+                Audiovisual / Produto digital
+              </span>
             </div>
 
             <div class="project-card__content">
               <span class="project-card__index">04</span>
-              <h3>Portfólio Produção Multimídia</h3>
-              <p>
+              <h3 data-i18n="projects.multimedia.title">Portfólio Produção Multimídia</h3>
+              <p data-i18n="projects.multimedia.description1">
                 Site autoral desenvolvido para apresentar minha atuação em produção audiovisual, conteúdo digital,
                 projetos criativos e comunicação multimídia.
               </p>
-              <p>
+              <p data-i18n="projects.multimedia.description2">
                 O projeto conecta design de interface, narrativa visual e organização de conteúdo para transformar
                 experiências profissionais em uma apresentação digital clara, dinâmica e navegável.
               </p>
 
               <ul class="project-card__list">
-                <li>HTML, CSS, JavaScript</li>
-                <li>Direção visual audiovisual</li>
-                <li>Animações e microinterações</li>
-                <li>Organização de conteúdo profissional</li>
-                <li>UX aplicada à apresentação pessoal</li>
-                <li>Integração com currículos e links autorais</li>
+                <li data-i18n="projects.multimedia.item1">HTML, CSS, JavaScript</li>
+                <li data-i18n="projects.multimedia.item2">Direção visual audiovisual</li>
+                <li data-i18n="projects.multimedia.item3">Animações e microinterações</li>
+                <li data-i18n="projects.multimedia.item4">Organização de conteúdo profissional</li>
+                <li data-i18n="projects.multimedia.item5">UX aplicada à apresentação pessoal</li>
+                <li data-i18n="projects.multimedia.item6">Integração com currículos e links autorais</li>
               </ul>
 
               <a
@@ -233,6 +293,8 @@
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="Ver projeto Portfólio Produção Multimídia em nova aba"
+                data-i18n="projects.multimedia.link"
+                data-i18n-attrs="aria-label:aria.projectsMultimediaLink"
               >
                 Ver projeto
               </a>
@@ -245,9 +307,9 @@
     <section class="section services" id="servicos" aria-labelledby="services-title">
       <div class="container">
         <div class="section__header reveal">
-          <p class="eyebrow">Oferta inicial</p>
-          <h2 id="services-title">Serviços</h2>
-          <p>
+          <p class="eyebrow" data-i18n="services.eyebrow">Oferta inicial</p>
+          <h2 id="services-title" data-i18n="services.title">Serviços</h2>
+          <p data-i18n="services.description">
             Desenvolvo páginas e estruturas digitais que ajudam profissionais a se apresentarem melhor online, unindo
             design, código e comunicação.
           </p>
@@ -256,8 +318,8 @@
         <div class="services__grid">
           <article class="service-card reveal">
             <span class="service-card__index">01</span>
-            <h3>Sites e portfólios digitais</h3>
-            <p>
+            <h3 data-i18n="services.card1.title">Sites e portfólios digitais</h3>
+            <p data-i18n="services.card1.description">
               Desenvolvo páginas modernas, responsivas e bem estruturadas para profissionais, projetos autorais e
               pequenos negócios.
             </p>
@@ -265,8 +327,8 @@
 
           <article class="service-card reveal">
             <span class="service-card__index">02</span>
-            <h3>Presença digital e conteúdo</h3>
-            <p>
+            <h3 data-i18n="services.card2.title">Presença digital e conteúdo</h3>
+            <p data-i18n="services.card2.description">
               Organizo perfis, bio e estrutura de comunicação, com foco em clareza, posicionamento e identidade
               digital.
             </p>
@@ -274,8 +336,8 @@
 
           <article class="service-card reveal">
             <span class="service-card__index">03</span>
-            <h3>Apresentação profissional</h3>
-            <p>
+            <h3 data-i18n="services.card3.title">Apresentação profissional</h3>
+            <p data-i18n="services.card3.description">
               Melhoro currículos e materiais de apresentação com foco em clareza, organização visual e comunicação
               mais estratégica.
             </p>
@@ -284,37 +346,41 @@
 
         <div class="services__support reveal">
           <div class="services__help">
-            <span>Como eu trabalho</span>
-            <p>
+            <span data-i18n="services.help.title">Como eu trabalho</span>
+            <p data-i18n="services.help.text">
               Meu foco é criar soluções simples, funcionais e bem apresentadas, combinando desenvolvimento frontend,
               design, UX e experiência com conteúdo digital e vídeo.
             </p>
           </div>
 
-          <div class="services__pricing" aria-label="Valores iniciais dos serviços">
-            <span>Valores iniciais</span>
+          <div
+            class="services__pricing"
+            aria-label="Valores iniciais dos serviços"
+            data-i18n-attrs="aria-label:aria.servicesPricing"
+          >
+            <span data-i18n="services.pricing.title">Valores iniciais</span>
             <ul>
               <li>
-                <span>Apresentação profissional</span>
-                <strong>a partir de R$ 80</strong>
+                <span data-i18n="services.pricing.item1.label">Apresentação profissional</span>
+                <strong data-i18n="services.pricing.item1.value">a partir de R$ 80</strong>
               </li>
               <li>
-                <span>Presença digital</span>
-                <strong>a partir de R$ 120</strong>
+                <span data-i18n="services.pricing.item2.label">Presença digital</span>
+                <strong data-i18n="services.pricing.item2.value">a partir de R$ 120</strong>
               </li>
               <li>
-                <span>Páginas e portfólios</span>
-                <strong>a partir de R$ 350</strong>
+                <span data-i18n="services.pricing.item3.label">Páginas e portfólios</span>
+                <strong data-i18n="services.pricing.item3.value">a partir de R$ 350</strong>
               </li>
               <li>
-                <span>Projetos completos</span>
-                <strong>a partir de R$ 500</strong>
+                <span data-i18n="services.pricing.item4.label">Projetos completos</span>
+                <strong data-i18n="services.pricing.item4.value">a partir de R$ 500</strong>
               </li>
             </ul>
           </div>
         </div>
 
-        <a class="button button--primary services__cta" href="#contato" data-open-contact>
+        <a class="button button--primary services__cta" href="#contato" data-open-contact data-i18n="services.cta">
           Vamos construir algo juntos
         </a>
       </div>
@@ -323,43 +389,46 @@
     <section class="section about" id="sobre" aria-labelledby="about-title">
       <div class="container about__grid">
         <div class="section__header reveal">
-          <p class="eyebrow">Sobre mim</p>
-          <h2 id="about-title">Código, design, jogos e produção digital em um mesmo repertório</h2>
+          <p class="eyebrow" data-i18n="about.eyebrow">Sobre mim</p>
+          <h2 id="about-title" data-i18n="about.title">Código, design, jogos e produção digital em um mesmo repertório</h2>
         </div>
 
         <div class="about__content reveal">
-          <p>
+          <p data-i18n="about.text1">
             Tenho interesse em desenvolvimento frontend, experiências digitais e produtos interativos. Busco
             oportunidades onde eu possa evoluir tecnicamente enquanto contribuo com organização, usabilidade e
             criação de interfaces.
           </p>
-          <p>
+          <p data-i18n="about.text2">
             Meu trabalho também passa por produção de vídeos, criação de conteúdo, projetos multimídia e um
             portfólio autoral além do frontend. Essa combinação fortalece minha visão de produto: penso em
             interfaces, narrativa, interação e clareza visual como partes da mesma experiência.
           </p>
 
-          <div class="about__stack" aria-label="Competências em destaque">
+          <div class="about__stack" aria-label="Competências em destaque" data-i18n-attrs="aria-label:aria.aboutStack">
             <span>HTML</span>
             <span>CSS</span>
             <span>JavaScript</span>
             <span>UX/UI</span>
             <span>Unreal Blueprint</span>
             <span>Unity</span>
-            <span>Produção digital</span>
-            <span>Conteúdo multimídia</span>
+            <span data-i18n="about.stackDigitalProduction">Produção digital</span>
+            <span data-i18n="about.stackMultimediaContent">Conteúdo multimídia</span>
           </div>
 
           <div class="about__portfolio">
             <div>
-              <span>Portfólio autoral</span>
-              <p>Projetos criativos, produções audiovisuais e trabalhos multimídia que ampliam minha atuação.</p>
+              <span data-i18n="about.portfolioLabel">Portfólio autoral</span>
+              <p data-i18n="about.portfolioText">
+                Projetos criativos, produções audiovisuais e trabalhos multimídia que ampliam minha atuação.
+              </p>
             </div>
             <a
               class="button button--outline external-link"
               href="https://reinholdgberner.wixsite.com/reinholdbernerport-1"
               target="_blank"
               rel="noopener noreferrer"
+              data-i18n="about.portfolioCta"
             >
               Explorar portfólio completo
             </a>
@@ -371,23 +440,23 @@
     <section class="explorations" aria-labelledby="explorations-title">
       <div class="container explorations__inner reveal">
         <div>
-          <p class="eyebrow">Interesse complementar</p>
-          <h2 id="explorations-title">Outras explorações</h2>
+          <p class="eyebrow" data-i18n="explorations.eyebrow">Interesse complementar</p>
+          <h2 id="explorations-title" data-i18n="explorations.title">Outras explorações</h2>
         </div>
 
         <div class="explorations__content">
-          <p>
+          <p data-i18n="explorations.text1">
             Também tenho interesse em experiências digitais no universo gamer, explorando temas como curadoria de
             jogos, organização de bibliotecas e montagem de setups personalizados para diferentes perfis de jogadores.
           </p>
-          <p>
+          <p data-i18n="explorations.text2">
             Gosto de pensar em como diferentes tipos de jogadores entram nesse universo, considerando orçamento,
             preferências e estilo de jogo.
           </p>
-          <p>
+          <p data-i18n="explorations.text3">
             Se fizer sentido, fico aberto para trocar ideia ou ajudar nesse tipo de construção.
           </p>
-          <a href="#contato" data-open-contact>Trocar ideia sobre isso</a>
+          <a href="#contato" data-open-contact data-i18n="explorations.cta">Trocar ideia sobre isso</a>
         </div>
       </div>
     </section>
@@ -395,19 +464,25 @@
     <section class="section resume" id="curriculo" aria-labelledby="resume-title">
       <div class="container resume__inner reveal">
         <div class="resume__copy">
-          <p class="eyebrow">Currículo</p>
-          <h2 id="resume-title">Currículo profissional para oportunidades em frontend</h2>
-          <p>
+          <p class="eyebrow" data-i18n="resume.eyebrow">Currículo</p>
+          <h2 id="resume-title" data-i18n="resume.title">Currículo profissional para oportunidades em frontend</h2>
+          <p data-i18n="resume.description">
             Perfil iniciante em desenvolvimento frontend com base em UX, criação de interfaces, projetos web,
             jogos acadêmicos e produção de conteúdo digital. Disponível para oportunidades onde código,
             organização visual e aprendizado contínuo caminhem juntos.
           </p>
         </div>
 
-        <div class="resume__card" aria-label="Arquivo de currículo em PDF">
-          <span class="resume__tag">PDF profissional</span>
-          <h3>CV_Reinhold_Berner.pdf</h3>
-          <p>Currículo atualizado com formação, competências, projetos e informações de contato.</p>
+        <div
+          class="resume__card"
+          aria-label="Arquivo de currículo em PDF"
+          data-i18n-attrs="aria-label:aria.resumeCard"
+        >
+          <span class="resume__tag" data-i18n="resume.tag">PDF profissional</span>
+          <h3 data-resume-file-name>CV_Reinhold_Berner.pdf</h3>
+          <p data-i18n="resume.cardDescription">
+            Currículo atualizado com formação, competências, projetos e informações de contato.
+          </p>
 
           <div class="resume__actions">
             <a
@@ -415,10 +490,18 @@
               href="CV_Reinhold_Berner.pdf"
               target="_blank"
               rel="noopener noreferrer"
+              data-resume-link="view"
+              data-i18n="resume.view"
             >
               Visualizar currículo
             </a>
-            <a class="button button--outline" href="CV_Reinhold_Berner.pdf" download>
+            <a
+              class="button button--outline"
+              href="CV_Reinhold_Berner.pdf"
+              download="CV_Reinhold_Berner.pdf"
+              data-resume-link="download"
+              data-i18n="resume.download"
+            >
               Baixar PDF
             </a>
           </div>
@@ -428,8 +511,8 @@
 
     <section class="cta" id="contato" aria-labelledby="cta-title">
       <div class="container cta__inner reveal">
-        <p class="eyebrow">Contato</p>
-        <h2 id="cta-title">
+        <p class="eyebrow" data-i18n="contact.eyebrow">Contato</p>
+        <h2 id="cta-title" data-i18n="contact.title">
           Desenvolvedor Frontend iniciante com foco em UX e experiências digitais. Experiência com projetos web,
           jogos e produção de conteúdo digital.
         </h2>
@@ -458,9 +541,11 @@
         <div class="contact-panel__surface">
           <div class="contact-panel__header">
             <div class="contact-panel__copy">
-              <p class="eyebrow">Canais diretos</p>
-              <h2 id="contact-panel-title">Vamos conversar sobre projetos, vagas e oportunidades</h2>
-              <p class="contact-panel__lead">
+              <p class="eyebrow" data-i18n="contact.panel.eyebrow">Canais diretos</p>
+              <h2 id="contact-panel-title" data-i18n="contact.panel.title">
+                Vamos conversar sobre projetos, vagas e oportunidades
+              </h2>
+              <p class="contact-panel__lead" data-i18n="contact.panel.lead">
                 Escolha o melhor canal para falar comigo. Mantive esta área simples, direta e pensada para
                 facilitar o primeiro contato.
               </p>
@@ -470,21 +555,27 @@
               type="button"
               aria-label="Fechar seção de contato"
               data-contact-close
+              data-i18n="contact.close"
+              data-i18n-attrs="aria-label:aria.contactClose"
             >
               Fechar
             </button>
           </div>
 
           <div class="contact-panel__body">
-            <aside class="contact-note" aria-label="Nota autoral sobre este portfólio">
-              <span>Sobre este site</span>
-              <p>
+            <aside
+              class="contact-note"
+              aria-label="Nota autoral sobre este portfólio"
+              data-i18n-attrs="aria-label:aria.contactNote"
+            >
+              <span data-i18n="contact.note.title">Sobre este site</span>
+              <p data-i18n="contact.note.text">
                 Este portfólio foi integralmente idealizado e desenvolvido por mim, funcionando como demonstração
                 prática da minha abordagem em frontend, design de interface e experiência digital.
               </p>
             </aside>
 
-            <div class="contact-cards" aria-label="Opções de contato">
+            <div class="contact-cards" aria-label="Opções de contato" data-i18n-attrs="aria-label:aria.contactOptions">
               <article class="contact-card contact-card--email">
                 <div class="contact-card__icon" aria-hidden="true">
                   <svg viewBox="0 0 24 24" role="img">
@@ -493,19 +584,21 @@
                   </svg>
                 </div>
                 <div class="contact-card__body">
-                  <h3>Me envie um e-mail</h3>
-                  <p>Retorno em até 2 dias úteis</p>
+                  <h3 data-i18n="contact.email.title">Me envie um e-mail</h3>
+                  <p data-i18n="contact.email.text">Retorno em até 2 dias úteis</p>
                 </div>
                 <div class="contact-card__actions">
                   <a
-                    href="mailto:reinholdgberner@gmail.com?subject=Contato%20via%20portfólio"
+                    href="mailto:reinholdgberner@gmail.com?subject=Contato%20via%20portf%C3%B3lio"
                     class="btn-primary"
+                    data-email-primary
+                    data-i18n="contact.email.button"
                   >
                     Enviar e-mail
                   </a>
                   <p class="contact-card__fallback">
-                    Ou envie um e-mail para:
-                    <a href="mailto:reinholdgberner@gmail.com">reinholdgberner@gmail.com</a>
+                    <span data-i18n="contact.emailFallbackPrefix">Ou envie um e-mail para:</span>
+                    <a href="mailto:reinholdgberner@gmail.com" data-email-fallback-link>reinholdgberner@gmail.com</a>
                   </p>
                 </div>
               </article>
@@ -519,8 +612,8 @@
                   </svg>
                 </div>
                 <div class="contact-card__body">
-                  <h3>LinkedIn</h3>
-                  <p>Vamos nos conectar por lá</p>
+                  <h3 data-i18n="contact.linkedin.title">LinkedIn</h3>
+                  <p data-i18n="contact.linkedin.text">Vamos nos conectar por lá</p>
                 </div>
                 <a
                   class="button button--outline contact-card__button external-link"
@@ -528,6 +621,8 @@
                   target="_blank"
                   rel="noopener noreferrer"
                   aria-label="Abrir perfil de Reinhold Berner no LinkedIn em nova aba"
+                  data-i18n="contact.linkedin.button"
+                  data-i18n-attrs="aria-label:aria.linkedinLink"
                 >
                   Abrir perfil
                 </a>
@@ -541,8 +636,8 @@
 
   <footer class="footer">
     <div class="container footer__inner">
-      <p>Reinhold Berner • Portfólio Frontend</p>
-      <a href="#home">Voltar ao topo</a>
+      <p data-i18n="footer.text">Reinhold Berner • Portfólio Frontend</p>
+      <a href="#home" data-i18n="footer.backToTop">Voltar ao topo</a>
     </div>
   </footer>
   <script src="script.js"></script>
