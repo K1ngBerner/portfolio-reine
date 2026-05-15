@@ -38,6 +38,81 @@ const translations = {
     "aria.heroPhotoAlt": "Foto de perfil de Reinhold Berner",
     "hero.currentFocusLabel": "Foco atual",
     "hero.currentFocusText": "Frontend • UX • Experiências digitais",
+    "featured.eyebrow": "Projeto em destaque",
+    "featured.kicker": "Case real de cliente",
+    "featured.title": "Tempero da Sandra",
+    "featured.subtitle": "Cardápio digital responsivo com integração WhatsApp",
+    "featured.description1": "Projeto desenvolvido para uma cliente real do segmento de alimentação caseira.",
+    "featured.description2":
+      "A proposta foi unir branding artesanal, UX comercial e desenvolvimento frontend para criar um sistema simples e funcional de pedidos semanais.",
+    "featured.description3":
+      "O site utiliza lógica em JavaScript para identificar automaticamente o próximo sábado do mês e destacar o prato vigente da semana.",
+    "aria.signatureImage": "Logo RB de Reinhold Berner",
+    "featured.signatureFallback": "RB",
+    "featured.signatureTitle": "Creative Developer",
+    "featured.signatureText": "Frontend • UX • Digital",
+    "aria.featuredMeta": "Características do case",
+    "featured.statClient": "Cliente real",
+    "featured.statAutomation": "Automação simples",
+    "featured.statMobile": "Mobile-first",
+    "featured.techTitle": "Tecnologias utilizadas",
+    "featured.badge1": "HTML",
+    "featured.badge2": "CSS",
+    "featured.badge3": "JavaScript",
+    "featured.badge4": "UX/UI",
+    "featured.badge5": "Responsive Design",
+    "featured.badge6": "WhatsApp API",
+    "featured.badge7": "Branding",
+    "featured.liveLink": "Ver projeto ao vivo",
+    "featured.visualLink": "Visualizar identidade visual",
+    "aria.featuredLiveLink": "Ver projeto Tempero da Sandra em nova aba",
+    "aria.featuredVisualButton": "Abrir gaveta da identidade visual do projeto Tempero da Sandra",
+    "featured.visualLabel": "Cardápio mobile-first",
+    "aria.featuredPreviewAlt": "Preview do cardápio digital Tempero da Sandra em um mockup de celular",
+    "aria.featuredBrandLogoAlt": "Logo da marca Tempero da Sandra",
+    "featured.visualBrandLabel": "Branding artesanal",
+    "featured.visualBrandText": "Logo, paleta quente e comunicação acolhedora.",
+    "featured.visualAutomationLabel": "JavaScript aplicado",
+    "featured.visualAutomationText": "Destaque automático do prato vigente da semana.",
+    "featured.solutionsTitle": "O que o projeto resolve",
+    "featured.solutions.item1": "pedidos simplificados",
+    "featured.solutions.item2": "integração direta com WhatsApp",
+    "featured.solutions.item3": "experiência mobile-first",
+    "featured.solutions.item4": "atualização automática do prato semanal",
+    "featured.solutions.item5": "sistema visual padronizado",
+    "featured.solutions.item6": "navegação intuitiva",
+    "featured.uxTitle": "Decisões de UX",
+    "featured.uxIntro":
+      "O projeto foi pensado para um público que acessa principalmente pelo celular e recebe o link via WhatsApp.",
+    "featured.ux.item1": "os botões são grandes",
+    "featured.ux.item2": "o prato da semana aparece primeiro",
+    "featured.ux.item3": "os pedidos exigem poucos cliques",
+    "featured.ux.item4": "as informações principais ficam sempre visíveis",
+    "featured.brandingTitle": "Branding",
+    "featured.brandingText":
+      "A identidade visual utiliza tons creme, terracota e dourado suave para transmitir comida caseira, acolhimento, simplicidade e conforto visual.",
+    "featured.branding.swatch1": "Creme",
+    "featured.branding.swatch2": "Terracota",
+    "featured.branding.swatch3": "Dourado suave",
+    "featured.resultTag": "Aprovado pela cliente",
+    "featured.resultTitle": "Resultado do projeto",
+    "featured.resultText":
+      "O projeto foi aprovado pela cliente com entusiasmo, validando tanto a identidade visual quanto a funcionalidade do sistema de pedidos desenvolvido.",
+    "featured.modal.eyebrow": "Identidade visual",
+    "featured.modal.title": "Tempero da Sandra",
+    "featured.modal.lead": "Branding, direção de arte, frontend e UX integrados em um case comercial real.",
+    "featured.modal.close": "Fechar",
+    "aria.featuredModalClose": "Fechar identidade visual do projeto",
+    "aria.featuredFlyerAlt": "Flyer final do projeto Tempero da Sandra",
+    "featured.modal.flyerLabel": "Flyer final do projeto",
+    "featured.modal.logoLabel": "Logo da marca",
+    "featured.modal.brandText": "A identidade visual foi criada para transmitir acolhimento, simplicidade e comida caseira.",
+    "featured.modal.disciplinesTitle": "Escopo envolvido",
+    "featured.modal.discipline1": "Branding",
+    "featured.modal.discipline2": "Direção de arte",
+    "featured.modal.discipline3": "Frontend",
+    "featured.modal.discipline4": "UX",
+    "featured.modal.discipline5": "Comunicação visual",
     "projects.eyebrow": "Projetos principais",
     "projects.title": "Web, interação e jogos com pensamento de produto",
     "projects.description":
@@ -201,6 +276,81 @@ const translations = {
     "aria.heroPhotoAlt": "Profile photo of Reinhold Berner",
     "hero.currentFocusLabel": "Current focus",
     "hero.currentFocusText": "Frontend • UX • Digital experiences",
+    "featured.eyebrow": "Featured case",
+    "featured.kicker": "Real client case",
+    "featured.title": "Tempero da Sandra",
+    "featured.subtitle": "Responsive digital menu with WhatsApp integration",
+    "featured.description1": "Project developed for a real client in the homemade food segment.",
+    "featured.description2":
+      "The proposal combined handcrafted branding, commercial UX and frontend development to create a simple and functional weekly ordering system.",
+    "featured.description3":
+      "The site uses JavaScript logic to automatically identify the next Saturday of the month and highlight the active dish of the week.",
+    "aria.signatureImage": "RB logo of Reinhold Berner",
+    "featured.signatureFallback": "RB",
+    "featured.signatureTitle": "Creative Developer",
+    "featured.signatureText": "Frontend • UX • Digital",
+    "aria.featuredMeta": "Case characteristics",
+    "featured.statClient": "Real client",
+    "featured.statAutomation": "Simple automation",
+    "featured.statMobile": "Mobile-first",
+    "featured.techTitle": "Technologies used",
+    "featured.badge1": "HTML",
+    "featured.badge2": "CSS",
+    "featured.badge3": "JavaScript",
+    "featured.badge4": "UX/UI",
+    "featured.badge5": "Responsive Design",
+    "featured.badge6": "WhatsApp API",
+    "featured.badge7": "Branding",
+    "featured.liveLink": "View live project",
+    "featured.visualLink": "View visual identity",
+    "aria.featuredLiveLink": "View the Tempero da Sandra project in a new tab",
+    "aria.featuredVisualButton": "Open the visual identity drawer for the Tempero da Sandra project",
+    "featured.visualLabel": "Mobile-first menu",
+    "aria.featuredPreviewAlt": "Preview of the Tempero da Sandra digital menu in a mobile mockup",
+    "aria.featuredBrandLogoAlt": "Tempero da Sandra brand logo",
+    "featured.visualBrandLabel": "Handcrafted branding",
+    "featured.visualBrandText": "Logo, warm palette and welcoming communication.",
+    "featured.visualAutomationLabel": "Applied JavaScript",
+    "featured.visualAutomationText": "Automatic highlighting of the current weekly dish.",
+    "featured.solutionsTitle": "What the project solves",
+    "featured.solutions.item1": "simplified ordering",
+    "featured.solutions.item2": "direct WhatsApp integration",
+    "featured.solutions.item3": "mobile-first experience",
+    "featured.solutions.item4": "automatic weekly dish update",
+    "featured.solutions.item5": "standardized visual system",
+    "featured.solutions.item6": "intuitive navigation",
+    "featured.uxTitle": "UX decisions",
+    "featured.uxIntro":
+      "The project was designed for an audience that mostly accesses it on mobile and receives the link through WhatsApp.",
+    "featured.ux.item1": "buttons are large",
+    "featured.ux.item2": "the weekly dish appears first",
+    "featured.ux.item3": "orders take only a few clicks",
+    "featured.ux.item4": "the main information always stays visible",
+    "featured.brandingTitle": "Branding",
+    "featured.brandingText":
+      "The visual identity uses cream, terracotta and soft gold tones to communicate homemade food, warmth, simplicity and visual comfort.",
+    "featured.branding.swatch1": "Cream",
+    "featured.branding.swatch2": "Terracotta",
+    "featured.branding.swatch3": "Soft gold",
+    "featured.resultTag": "Approved by the client",
+    "featured.resultTitle": "Project result",
+    "featured.resultText":
+      "The project was enthusiastically approved by the client, validating both the visual identity and the functionality of the ordering system.",
+    "featured.modal.eyebrow": "Visual identity",
+    "featured.modal.title": "Tempero da Sandra",
+    "featured.modal.lead": "Branding, art direction, frontend and UX combined in a real commercial case.",
+    "featured.modal.close": "Close",
+    "aria.featuredModalClose": "Close the project visual identity",
+    "aria.featuredFlyerAlt": "Final flyer of the Tempero da Sandra project",
+    "featured.modal.flyerLabel": "Final project flyer",
+    "featured.modal.logoLabel": "Brand logo",
+    "featured.modal.brandText": "The visual identity was created to communicate warmth, simplicity and homemade food.",
+    "featured.modal.disciplinesTitle": "Scope involved",
+    "featured.modal.discipline1": "Branding",
+    "featured.modal.discipline2": "Art direction",
+    "featured.modal.discipline3": "Frontend",
+    "featured.modal.discipline4": "UX",
+    "featured.modal.discipline5": "Visual communication",
     "projects.eyebrow": "Main projects",
     "projects.title": "Web, interaction and games with product thinking",
     "projects.description":
@@ -347,15 +497,23 @@ const contactToggleLabel = document.querySelector("[data-contact-toggle-label]")
 const contactPanel = document.querySelector("[data-contact-panel]");
 const contactClose = document.querySelector("[data-contact-close]");
 const contactLaunchers = document.querySelectorAll("[data-open-contact]");
+const caseDrawer = document.querySelector("[data-case-drawer]");
+const caseDrawerOpeners = document.querySelectorAll("[data-case-drawer-open]");
+const caseDrawerClosers = document.querySelectorAll("[data-case-drawer-close]");
+const caseDrawerCloseButton = document.querySelector(".identity-drawer__close");
 const resumeFileName = document.querySelector("[data-resume-file-name]");
 const resumeViewLink = document.querySelector('[data-resume-link="view"]');
 const resumeDownloadLink = document.querySelector('[data-resume-link="download"]');
 const emailPrimaryLink = document.querySelector("[data-email-primary]");
 const emailFallbackLink = document.querySelector("[data-email-fallback-link]");
 const metaDescription = document.querySelector('meta[name="description"]');
+const signatureBadge = document.querySelector("[data-signature-badge]");
+const signatureImage = document.querySelector("[data-signature-image]");
 const motionQuery = window.matchMedia("(prefers-reduced-motion: reduce)");
 
 let currentLanguage = DEFAULT_LANGUAGE;
+let lastCaseDrawerTrigger = null;
+let caseDrawerCloseTimer = null;
 
 function getTranslation(lang, key) {
   return translations[lang]?.[key] ?? translations[DEFAULT_LANGUAGE]?.[key] ?? "";
@@ -467,6 +625,21 @@ function updateLanguageSwitcher(lang) {
   });
 }
 
+function updateCaseDrawerTriggerState(isOpen) {
+  caseDrawerOpeners.forEach((trigger) => {
+    trigger.setAttribute("aria-expanded", String(isOpen));
+  });
+}
+
+function setSignatureBadgeState() {
+  if (!signatureBadge || !signatureImage) {
+    return;
+  }
+
+  const hasLoadedImage = signatureImage.complete && signatureImage.naturalWidth > 0;
+  signatureBadge.classList.toggle("is-loaded", hasLoadedImage);
+}
+
 function updateContactToggleLabel(forceOpenState) {
   if (!contactToggleLabel) {
     return;
@@ -506,6 +679,62 @@ function applyLanguage(lang, { animate = false } = {}) {
   if (animate) {
     animateLanguageChange();
   }
+}
+
+function openCaseDrawer(trigger) {
+  if (!caseDrawer) {
+    return;
+  }
+
+  if (caseDrawerCloseTimer) {
+    window.clearTimeout(caseDrawerCloseTimer);
+    caseDrawerCloseTimer = null;
+  }
+
+  lastCaseDrawerTrigger = trigger ?? document.activeElement;
+  caseDrawer.hidden = false;
+  caseDrawer.removeAttribute("inert");
+  caseDrawer.setAttribute("aria-hidden", "false");
+  document.body.classList.add("has-overlay-open");
+  updateCaseDrawerTriggerState(true);
+
+  window.requestAnimationFrame(() => {
+    caseDrawer.classList.add("is-open");
+
+    if (caseDrawerCloseButton) {
+      caseDrawerCloseButton.focus();
+    }
+  });
+}
+
+function closeCaseDrawer({ restoreFocus = false } = {}) {
+  if (!caseDrawer) {
+    return;
+  }
+
+  caseDrawer.classList.remove("is-open");
+  caseDrawer.setAttribute("aria-hidden", "true");
+  document.body.classList.remove("has-overlay-open");
+  updateCaseDrawerTriggerState(false);
+
+  const finishClose = () => {
+    caseDrawer.setAttribute("inert", "");
+    caseDrawer.hidden = true;
+
+    if (restoreFocus && lastCaseDrawerTrigger instanceof HTMLElement) {
+      lastCaseDrawerTrigger.focus();
+    }
+  };
+
+  if (motionQuery.matches) {
+    finishClose();
+    return;
+  }
+
+  caseDrawerCloseTimer = window.setTimeout(() => {
+    caseDrawerCloseTimer = null;
+    finishClose();
+  }, 320);
 }
 
 function updateHeaderState() {
@@ -635,8 +864,23 @@ languageTriggers.forEach((trigger) => {
   });
 });
 
+if (signatureImage) {
+  setSignatureBadgeState();
+  signatureImage.addEventListener("load", setSignatureBadgeState);
+  signatureImage.addEventListener("error", setSignatureBadgeState);
+}
+
+caseDrawerOpeners.forEach((trigger) => {
+  trigger.addEventListener("click", () => openCaseDrawer(trigger));
+});
+
+caseDrawerClosers.forEach((trigger) => {
+  trigger.addEventListener("click", () => closeCaseDrawer({ restoreFocus: true }));
+});
+
 updateHeaderState();
 applyLanguage(getInitialLanguage());
+updateCaseDrawerTriggerState(false);
 
 window.addEventListener("scroll", updateHeaderState, { passive: true });
 window.addEventListener("resize", setContactPanelHeight);
@@ -661,6 +905,11 @@ contactLaunchers.forEach((launcher) => {
 });
 
 document.addEventListener("keydown", (event) => {
+  if (event.key === "Escape" && caseDrawer?.classList.contains("is-open")) {
+    closeCaseDrawer({ restoreFocus: true });
+    return;
+  }
+
   if (event.key === "Escape" && contactPanel?.classList.contains("is-open")) {
     closeContactPanel({ restoreFocus: true });
   }

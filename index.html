@@ -131,7 +131,202 @@
       </div>
     </section>
 
-    <section class="section projects" id="projetos" aria-labelledby="projects-title">
+    <section class="featured-case section" id="projetos" aria-labelledby="featured-case-title">
+      <div class="container">
+        <div class="featured-case__surface reveal">
+          <div class="featured-case__hero">
+            <div class="featured-case__copy">
+              <div class="featured-case__heading">
+                <p class="eyebrow" data-i18n="featured.eyebrow">Projeto em destaque</p>
+                <span class="featured-case__kicker" data-i18n="featured.kicker">Case real de cliente</span>
+                <h2 id="featured-case-title" data-i18n="featured.title">Tempero da Sandra</h2>
+                <p class="featured-case__subtitle" data-i18n="featured.subtitle">
+                  Cardápio digital responsivo com integração WhatsApp
+                </p>
+              </div>
+
+              <div class="featured-case__signature identity-signature" data-signature-badge>
+                <div class="identity-signature__mark">
+                  <img
+                    src="rb-logo.jpg"
+                    alt="Logo RB de Reinhold Berner"
+                    loading="lazy"
+                    width="180"
+                    height="78"
+                    data-signature-image
+                    data-i18n-attrs="alt:aria.signatureImage"
+                  >
+                  <span class="identity-signature__fallback" data-i18n="featured.signatureFallback">RB</span>
+                </div>
+                <div class="identity-signature__copy">
+                  <strong data-i18n="featured.signatureTitle">Creative Developer</strong>
+                  <span data-i18n="featured.signatureText">Frontend • UX • Digital</span>
+                </div>
+              </div>
+
+              <div class="featured-case__body">
+                <p data-i18n="featured.description1">
+                  Projeto desenvolvido para uma cliente real do segmento de alimentação caseira.
+                </p>
+                <p data-i18n="featured.description2">
+                  A proposta foi unir branding artesanal, UX comercial e desenvolvimento frontend para criar um
+                  sistema simples e funcional de pedidos semanais.
+                </p>
+                <p data-i18n="featured.description3">
+                  O site utiliza lógica em JavaScript para identificar automaticamente o próximo sábado do mês e
+                  destacar o prato vigente da semana.
+                </p>
+              </div>
+
+              <div class="featured-case__meta" aria-label="Características do case" data-i18n-attrs="aria-label:aria.featuredMeta">
+                <span data-i18n="featured.statClient">Cliente real</span>
+                <span data-i18n="featured.statAutomation">Automação simples</span>
+                <span data-i18n="featured.statMobile">Mobile-first</span>
+              </div>
+
+              <div class="featured-case__tech">
+                <span data-i18n="featured.techTitle">Tecnologias utilizadas</span>
+                <ul class="featured-case__tags">
+                  <li data-i18n="featured.badge1">HTML</li>
+                  <li data-i18n="featured.badge2">CSS</li>
+                  <li data-i18n="featured.badge3">JavaScript</li>
+                  <li data-i18n="featured.badge4">UX/UI</li>
+                  <li data-i18n="featured.badge5">Responsive Design</li>
+                  <li data-i18n="featured.badge6">WhatsApp API</li>
+                  <li data-i18n="featured.badge7">Branding</li>
+                </ul>
+              </div>
+
+              <div class="featured-case__actions">
+                <a
+                  class="button button--primary external-link"
+                  href="https://tempero-da-sandra.netlify.app"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  data-i18n="featured.liveLink"
+                  data-i18n-attrs="aria-label:aria.featuredLiveLink"
+                >
+                  Ver projeto ao vivo
+                </a>
+                <button
+                  class="button button--outline featured-case__drawer-trigger"
+                  type="button"
+                  aria-haspopup="dialog"
+                  aria-controls="identity-drawer"
+                  aria-expanded="false"
+                  data-case-drawer-open
+                  data-i18n="featured.visualLink"
+                  data-i18n-attrs="aria-label:aria.featuredVisualButton"
+                >
+                  Visualizar identidade visual
+                </button>
+              </div>
+            </div>
+
+            <div class="featured-case__visual">
+              <figure class="featured-case__device">
+                <div class="featured-case__device-bar">
+                  <div class="featured-case__device-dots" aria-hidden="true">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                  </div>
+                  <p data-i18n="featured.visualLabel">Cardápio mobile-first</p>
+                </div>
+                <img
+                  src="Finalizado.png"
+                  alt="Preview do cardápio digital Tempero da Sandra em um mockup de celular"
+                  loading="lazy"
+                  width="1414"
+                  height="2000"
+                  data-i18n-attrs="alt:aria.featuredPreviewAlt"
+                >
+              </figure>
+
+              <article class="featured-case__visual-card featured-case__visual-card--brand">
+                <img
+                  src="logo-sandra.png"
+                  alt="Logo da marca Tempero da Sandra"
+                  loading="lazy"
+                  width="564"
+                  height="390"
+                  data-i18n-attrs="alt:aria.featuredBrandLogoAlt"
+                >
+                <div>
+                  <span data-i18n="featured.visualBrandLabel">Branding artesanal</span>
+                  <p data-i18n="featured.visualBrandText">Logo, paleta quente e comunicação acolhedora.</p>
+                </div>
+              </article>
+
+              <article class="featured-case__visual-card featured-case__visual-card--automation">
+                <span data-i18n="featured.visualAutomationLabel">JavaScript aplicado</span>
+                <strong data-i18n="featured.visualAutomationText">
+                  Destaque automático do prato vigente da semana.
+                </strong>
+              </article>
+            </div>
+          </div>
+
+          <div class="featured-case__details">
+            <article class="featured-panel featured-panel--wide">
+              <h3 data-i18n="featured.solutionsTitle">O que o projeto resolve</h3>
+              <ul class="featured-panel__list featured-panel__list--solutions">
+                <li data-i18n="featured.solutions.item1">pedidos simplificados</li>
+                <li data-i18n="featured.solutions.item2">integração direta com WhatsApp</li>
+                <li data-i18n="featured.solutions.item3">experiência mobile-first</li>
+                <li data-i18n="featured.solutions.item4">atualização automática do prato semanal</li>
+                <li data-i18n="featured.solutions.item5">sistema visual padronizado</li>
+                <li data-i18n="featured.solutions.item6">navegação intuitiva</li>
+              </ul>
+            </article>
+
+            <article class="featured-panel">
+              <h3 data-i18n="featured.uxTitle">Decisões de UX</h3>
+              <p data-i18n="featured.uxIntro">
+                O projeto foi pensado para um público que acessa principalmente pelo celular e recebe o link via
+                WhatsApp.
+              </p>
+              <ul class="featured-panel__list">
+                <li data-i18n="featured.ux.item1">os botões são grandes</li>
+                <li data-i18n="featured.ux.item2">o prato da semana aparece primeiro</li>
+                <li data-i18n="featured.ux.item3">os pedidos exigem poucos cliques</li>
+                <li data-i18n="featured.ux.item4">as informações principais ficam sempre visíveis</li>
+              </ul>
+            </article>
+
+            <article class="featured-panel">
+              <h3 data-i18n="featured.brandingTitle">Branding</h3>
+              <p data-i18n="featured.brandingText">
+                A identidade visual utiliza tons creme, terracota e dourado suave para transmitir comida caseira,
+                acolhimento, simplicidade e conforto visual.
+              </p>
+              <div class="featured-branding__palette" aria-hidden="true">
+                <div class="featured-branding__swatch featured-branding__swatch--cream">
+                  <span data-i18n="featured.branding.swatch1">Creme</span>
+                </div>
+                <div class="featured-branding__swatch featured-branding__swatch--terracotta">
+                  <span data-i18n="featured.branding.swatch2">Terracota</span>
+                </div>
+                <div class="featured-branding__swatch featured-branding__swatch--gold">
+                  <span data-i18n="featured.branding.swatch3">Dourado suave</span>
+                </div>
+              </div>
+            </article>
+
+            <article class="featured-panel featured-panel--result">
+              <span class="featured-panel__tag" data-i18n="featured.resultTag">Aprovado pela cliente</span>
+              <h3 data-i18n="featured.resultTitle">Resultado do projeto</h3>
+              <p data-i18n="featured.resultText">
+                O projeto foi aprovado pela cliente com entusiasmo, validando tanto a identidade visual quanto a
+                funcionalidade do sistema de pedidos desenvolvido.
+              </p>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section projects" id="projetos-lista" aria-labelledby="projects-title">
       <div class="container">
         <div class="section__header reveal">
           <p class="eyebrow" data-i18n="projects.eyebrow">Projetos principais</p>
@@ -628,6 +823,86 @@
                 </a>
               </article>
             </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="identity-drawer" id="identity-drawer" aria-hidden="true" data-case-drawer inert hidden>
+      <button
+        class="identity-drawer__backdrop"
+        type="button"
+        data-case-drawer-close
+        aria-label="Fechar identidade visual do projeto"
+        data-i18n-attrs="aria-label:aria.featuredModalClose"
+      ></button>
+
+      <div
+        class="identity-drawer__dialog"
+        role="dialog"
+        aria-modal="true"
+        aria-labelledby="identity-drawer-title"
+        aria-describedby="identity-drawer-lead"
+      >
+        <div class="identity-drawer__header">
+          <div>
+            <p class="eyebrow" data-i18n="featured.modal.eyebrow">Identidade visual</p>
+            <h2 id="identity-drawer-title" data-i18n="featured.modal.title">Tempero da Sandra</h2>
+            <p id="identity-drawer-lead" data-i18n="featured.modal.lead">
+              Branding, direção de arte, frontend e UX integrados em um case comercial real.
+            </p>
+          </div>
+          <button
+            class="identity-drawer__close"
+            type="button"
+            data-case-drawer-close
+            aria-label="Fechar identidade visual do projeto"
+            data-i18n="featured.modal.close"
+            data-i18n-attrs="aria-label:aria.featuredModalClose"
+          >
+            Fechar
+          </button>
+        </div>
+
+        <div class="identity-drawer__body">
+          <figure class="identity-drawer__preview">
+            <img
+              src="Finalizado.png"
+              alt="Flyer final do projeto Tempero da Sandra"
+              loading="lazy"
+              width="1414"
+              height="2000"
+              data-i18n-attrs="alt:aria.featuredFlyerAlt"
+            >
+            <figcaption data-i18n="featured.modal.flyerLabel">Flyer final do projeto</figcaption>
+          </figure>
+
+          <div class="identity-drawer__sidebar">
+            <article class="identity-drawer__brand-card">
+              <span data-i18n="featured.modal.logoLabel">Logo da marca</span>
+              <img
+                src="logo-sandra.png"
+                alt="Logo da marca Tempero da Sandra"
+                loading="lazy"
+                width="564"
+                height="390"
+                data-i18n-attrs="alt:aria.featuredBrandLogoAlt"
+              >
+              <p data-i18n="featured.modal.brandText">
+                A identidade visual foi criada para transmitir acolhimento, simplicidade e comida caseira.
+              </p>
+            </article>
+
+            <article class="identity-drawer__scope">
+              <span data-i18n="featured.modal.disciplinesTitle">Escopo envolvido</span>
+              <ul class="identity-drawer__chips">
+                <li data-i18n="featured.modal.discipline1">Branding</li>
+                <li data-i18n="featured.modal.discipline2">Direção de arte</li>
+                <li data-i18n="featured.modal.discipline3">Frontend</li>
+                <li data-i18n="featured.modal.discipline4">UX</li>
+                <li data-i18n="featured.modal.discipline5">Comunicação visual</li>
+              </ul>
+            </article>
           </div>
         </div>
       </div>
