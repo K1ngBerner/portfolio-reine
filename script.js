@@ -157,6 +157,48 @@ const translations = {
     "projects.multimedia.item6": "Integração com currículos e links autorais",
     "projects.multimedia.link": "Ver projeto",
     "aria.projectsMultimediaLink": "Ver projeto Portfólio Produção Multimídia em nova aba",
+    "projects.patricia.badge": "Cliente real / Branding + Frontend",
+    "projects.patricia.title": "Patrícia Conti",
+    "projects.patricia.description":
+      "Case para uma despachante empresarial, reunindo identidade visual premium, comunicação de serviços, estrutura de UX e presença digital responsiva.",
+    "projects.patricia.item1": "HTML, CSS, JavaScript",
+    "projects.patricia.item2": "Branding e direção visual",
+    "projects.patricia.item3": "UX para serviços empresariais",
+    "projects.patricia.item4": "Conteúdo e hierarquia comercial",
+    "projects.patricia.item5": "Frontend responsivo",
+    "projects.patricia.link": "Ver estudo de caso",
+    "aria.projectsPatriciaCoverAlt": "Identidade visual Patrícia Conti Assessoria Empresarial",
+    "aria.projectsPatriciaLink": "Ver estudo de caso Patrícia Conti",
+    "patricia.eyebrow": "Estudo de caso aprofundado",
+    "patricia.title": "Patrícia Conti",
+    "patricia.lead":
+      "Presença digital para especialista em regularização documental, com linguagem visual sofisticada, organização clara dos serviços e foco em confiança para clientes empresariais.",
+    "patricia.projectLink": "Conversar sobre o projeto",
+    "patricia.gallery.services": "Material visual com serviços, contato e chamada por QR code",
+    "patricia.summary.tag": "Case real de cliente",
+    "patricia.summary.title": "Branding, UX, conteúdo e frontend em uma presença digital coesa",
+    "patricia.summary.text":
+      "O projeto posiciona Patrícia Conti como uma profissional experiente em legalização, regularização e documentação empresarial, traduzindo mais de 25 anos de atuação em uma experiência digital direta e confiável.",
+    "patricia.branding.title": "Branding",
+    "patricia.branding.text":
+      "A identidade usa azul-marinho, dourado e fundo claro para comunicar seriedade, precisão documental e atendimento premium sem perder legibilidade.",
+    "patricia.ux.title": "UX",
+    "patricia.ux.text":
+      "A arquitetura prioriza compreensão rápida: serviços em lista, contato visível, localização objetiva e CTA para saber mais sem criar barreiras para quem chega pelo celular.",
+    "patricia.content.title": "Conteúdo",
+    "patricia.content.text":
+      "A redação organiza termos burocráticos em benefícios concretos, destacando abertura de empresas, alterações contratuais, MEI, alvarás, certidões e apoio em processos regulatórios.",
+    "patricia.frontend.title": "Frontend",
+    "patricia.frontend.text":
+      "A implementação foi pensada para carregamento leve, leitura responsiva, componentes reutilizáveis e apresentação consistente entre card, galeria e estudo de caso.",
+    "patricia.role.title": "Minha atuação",
+    "patricia.role.text":
+      "Atuei na organização do case, estrutura visual, adaptação dos assets de marca, hierarquia de conteúdo, decisões de UX e integração frontend dentro do portfólio sem substituir projetos anteriores.",
+    "aria.patriciaGallery": "Galeria visual Patrícia Conti",
+    "aria.patriciaGalleryLogoAlt": "Logo Patrícia Conti Assessoria Empresarial",
+    "aria.patriciaGalleryServicesAlt": "Panfleto digital Patrícia Conti com serviços empresariais",
+    "patricia.gallery.logo": "Assinatura visual da marca",
+    "patricia.gallery.card": "Peça comercial com serviços e canais de contato",
     "services.eyebrow": "Oferta inicial",
     "services.title": "Serviços",
     "services.description":
@@ -395,6 +437,48 @@ const translations = {
     "projects.multimedia.item6": "Integration with resumes and personal links",
     "projects.multimedia.link": "View project",
     "aria.projectsMultimediaLink": "View the Multimedia Production Portfolio project in a new tab",
+    "projects.patricia.badge": "Real client / Branding + Frontend",
+    "projects.patricia.title": "Patrícia Conti",
+    "projects.patricia.description":
+      "Case for a business licensing consultant, combining premium visual identity, service communication, UX structure and responsive digital presence.",
+    "projects.patricia.item1": "HTML, CSS, JavaScript",
+    "projects.patricia.item2": "Branding and visual direction",
+    "projects.patricia.item3": "UX for business services",
+    "projects.patricia.item4": "Content and commercial hierarchy",
+    "projects.patricia.item5": "Responsive frontend",
+    "projects.patricia.link": "View case study",
+    "aria.projectsPatriciaCoverAlt": "Patrícia Conti Business Consulting visual identity",
+    "aria.projectsPatriciaLink": "View the Patrícia Conti case study",
+    "patricia.eyebrow": "In-depth case study",
+    "patricia.title": "Patrícia Conti",
+    "patricia.lead":
+      "Digital presence for a document regularization specialist, with sophisticated visual language, clear service organization and a trust-focused experience for business clients.",
+    "patricia.projectLink": "Talk about the project",
+    "patricia.gallery.services": "Visual material with services, contact details and QR code call-to-action",
+    "patricia.summary.tag": "Real client case",
+    "patricia.summary.title": "Branding, UX, content and frontend in one cohesive digital presence",
+    "patricia.summary.text":
+      "The project positions Patrícia Conti as an experienced professional in business legalization, regularization and documentation, translating more than 25 years of work into a direct and trustworthy digital experience.",
+    "patricia.branding.title": "Branding",
+    "patricia.branding.text":
+      "The identity uses navy blue, gold and a light background to communicate seriousness, document precision and premium service while keeping readability high.",
+    "patricia.ux.title": "UX",
+    "patricia.ux.text":
+      "The architecture prioritizes quick understanding: services in a list, visible contact details, clear location and a learn-more CTA without creating barriers for mobile visitors.",
+    "patricia.content.title": "Content",
+    "patricia.content.text":
+      "The writing organizes bureaucratic terms into concrete benefits, highlighting business registration, contract changes, MEI, permits, certificates and support with regulatory processes.",
+    "patricia.frontend.title": "Frontend",
+    "patricia.frontend.text":
+      "The implementation was designed for light loading, responsive reading, reusable components and consistent presentation across the card, gallery and case study.",
+    "patricia.role.title": "My role",
+    "patricia.role.text":
+      "I worked on the case organization, visual structure, brand asset adaptation, content hierarchy, UX decisions and frontend integration inside the portfolio without replacing previous projects.",
+    "aria.patriciaGallery": "Patrícia Conti visual gallery",
+    "aria.patriciaGalleryLogoAlt": "Patrícia Conti Business Consulting logo",
+    "aria.patriciaGalleryServicesAlt": "Patrícia Conti digital flyer with business services",
+    "patricia.gallery.logo": "Brand visual signature",
+    "patricia.gallery.card": "Commercial piece with services and contact channels",
     "services.eyebrow": "Initial offer",
     "services.title": "Services",
     "services.description":
